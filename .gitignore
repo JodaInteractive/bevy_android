@@ -1,0 +1,13 @@
+# Rust builds
+/target
+# This file contains environment-specific configuration like linker settings
+.cargo/config.toml
+/build
+.gradle
+.idea
+.DS_Store
+build
+.cxx
+local.properties
+android_example
+app/src/main/jniLibs
