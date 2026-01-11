@@ -22,7 +22,7 @@ To try the Bevy Android app, follow these steps:
 3. Open the app on your Android device.
 
 ### If you don't have `make` installed:
-1. Run `cargo ndk --target arm64-v8a -o ./android_example/app/src/main/jniLibs build`
+1. Run `cargo ndk --target arm64-v8a -o ./app/src/main/jniLibs build`
 2. Run `./gradlew build`
 3. Run `./gradlew installDebug`
 4. Open the app on your Android device.
